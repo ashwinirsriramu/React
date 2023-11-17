@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
+import img from './images/inst.jpg'
 
 const Body = () => {
   const [count,setCount]=useState(0)
   return (
     <div>
-      <a target="_blank" href="inst.jpg">
-     <img src="inst.jpg" alt="instagram" height="400" width="600"></img></a>
+      
+     <img src={inst.jpg} alt='insta'/>
      <button onClick={()=>setCount(count+1)}>Like</button>
      <p>Likes: {count}</p>
     </div>
