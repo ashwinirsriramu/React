@@ -24,11 +24,11 @@ export default Header*/
 import React, { useState } from 'react'
 
 const Header = () => {
-    const [name,setName]=useState("Jyothi")
+    const [name,setName]=useState("Ashwini")
   return (
     <div>
       <h1>My name is {name}</h1>
-      <button onClick={()=>setName("Ashwini")}>Click here</button>
+      <button onClick={()=>setName("Usha")}>Click here</button>
     </div>
   )
 }
